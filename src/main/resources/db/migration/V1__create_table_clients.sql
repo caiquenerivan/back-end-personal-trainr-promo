@@ -1,0 +1,6 @@
+CREATE TABLE clients(
+    id TEXT PRIMARY KEY UNIQUE NOT NULL,
+    name TEXT NOT NULL,
+    email TEXT NOT NULL,
+    active BOOLEAN NOT NULL
+);
